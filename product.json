@@ -1,0 +1,27 @@
+{
+  "name": "a name",
+  "measurements":{
+    "thc": 3.22,
+    "cbd": 4.22,
+    "cbc": 4.22,
+    "cbg": 5.44,
+    "cnb": 4.22,
+    "total": 32.22
+  },
+  "type": "indica",
+  "farmer": {
+    "name": "a",
+    "rating": 2.44,
+    "type": [
+      "outdoor",
+      "small",
+      "family",
+      "old"
+    ],
+    "location": "city,state,etc "
+  },
+  "price_per_unit": 3.22,
+  "unit_size": "ounces",
+  "number_of_units": 55.55,
+  "stage": "planning, about to being harvested, trimming"
+}
