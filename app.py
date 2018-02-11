@@ -20,3 +20,11 @@ def farmerHistory():
 @app.route('/search')
 def search():
     return render_template('search.html')
+
+@app.route('/farmerCurrent')
+def farmerCurrent():
+    return render_template('farmerCurrent.html')
+
+@app.route('/data')
+def data():
+    return jsonify('data.json')
