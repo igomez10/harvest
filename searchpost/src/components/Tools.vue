@@ -51,9 +51,7 @@
 </template>
 
 <script>
-$(document).ready(function () {
-  $('select').material_select()
-})
+
 export default {
   name: 'Tools',
   data () {
