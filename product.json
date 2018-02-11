@@ -1,6 +1,7 @@
 {
   "name": "a name",
-  "measurements":{
+  "medic": ,
+  "measurements": {
     "thc": 3.22,
     "cbd": 4.22,
     "cbc": 4.22,
@@ -23,5 +24,25 @@
   "price_per_unit": 3.22,
   "unit_size": "ounces",
   "number_of_units": 55.55,
-  "stage": "planning, about to being harvested, trimming"
+  "stage": "planning, about to being harvested, trimming",
+  "effects": {
+    "medical": ["Depression",
+      "Pain",
+      "Stress",
+      "Lack of Appetite",
+      "Nausea",
+      "Headache"
+    ],
+    "negative": [
+      "Dry Mouth",
+      "Paranoid",
+      "Dry Eyes",
+      "Anxious"],
+    "positive": ["Euphoric",
+      "Happy",
+      "Creative",
+      "Energetic",
+      "Uplifted"
+    ]
+  }
 }
