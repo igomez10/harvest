@@ -1,0 +1,117 @@
+body, html {
+ font-family: 'Nanum Gothic', sans-serif;
+}
+
+/* nav */
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
+    color: #dd9a6c!important;
+    background-color: transparent;
+}
+
+#mainNav.navbar-shrink .navbar-brand {
+    color: #dd9a6c;
+}
+
+/* end nav */
+
+/*index*/
+header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url(http://www.thesmokingbud.com/sites/default/files/styles/stt_article_top/public/052015/asdfd.jpg?itok=zPX_RDO6);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.btn-primary {
+    background-color: #dd9a6c;
+    border-color: #dd9a6c;
+}
+
+.bg-primary {
+    background-color: #dd9a6c!important;
+    color: #fff!important;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+    background-color: #e3894a!important;
+    color: #fff!important;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #0c610f;
+    border-color: #0c610f;
+}
+
+a.white-link {
+	color: #fff!important;
+}
+
+a.black-link {
+	color: #000!important;
+}
+
+.portfolio-box .portfolio-box-caption {
+    background: rgba(221,154,108,.9);
+}
+
+hr {
+    border-color: #dd9a6c;
+}
+
+.text-primary {
+    color: #dd9a6c!important;
+}
+
+.img-fluid {
+    height: 320px;
+}
+
+#imgRoyal {
+    width: -webkit-fill-available;
+}
+
+a {
+    color: #dd9a6c !important;
+}
+
+/*end index*/
+
+/* farmer profile */
+
+img#imgProfile {
+    width: 550px;
+    height: 370px;
+}
+
+#harvestTypeList {
+	width: 250px;
+}
+
+/* end farmer profile */
+
+/* generic */
+
+.padding-top50 {
+	padding-top: 50px;
+}
+
+.padding-top25 {
+	padding-top: 25px;
+}
+
+.padding-125em {
+	padding: 1.25rem;
+}
+
+.text-brandcolor {
+	color: #dd9a6c;
+}
+
+/* end generic */
+
