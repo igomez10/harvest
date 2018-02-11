@@ -7,7 +7,7 @@
       </div>
     </div>
     <div class="drawer" style='display:flex;overflow-x: scroll'>
-      <Post v-for='(post,key) in offers' :key='key'
+      <Post v-for='(post,key) in offers.slice(0,250)' :key='key'
       :name='post.name'
       :measurements='post.measurements'
       :type='post.type'

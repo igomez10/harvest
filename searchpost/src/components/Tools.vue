@@ -17,11 +17,11 @@
       <div class="input-field col s6">
         <select v-model='selectedData' multiple>
           <option value="" disabled>Choose your option</option>
-          <option value='a'>family owned</option>
+          <option value='a'>Family Owned</option>
           <option value="old">Old</option>
-          <option>hidroponic</option>
-          <option>organic</option>
-          <option>outdoor</option>
+          <option>Hydroponic</option>
+          <option>Organic</option>
+          <option>Outdoor</option>
           <option>Small</option>
         </select>
         <label>Harvest Type</label>
