@@ -28,3 +28,7 @@ def farmerCurrent():
 @app.route('/data')
 def data():
     return send_from_directory(app.static_folder, 'strains.json')
+
+@app.route('/AccountPurchaser')
+def AccountPurchaser():
+    return render_template('AccountPurchaser.html')

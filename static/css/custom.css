@@ -73,6 +73,7 @@ hr {
 
 .img-fluid {
     height: -webkit-fill-available;
+    max-height: 320px;
 }
 
 .imgMaxHeight {
