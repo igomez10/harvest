@@ -55,5 +55,8 @@ export default {
 <style scoped>
 .drawer::-webkit-scrollbar {
   display: none;
+.drawer {
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 </style>
