@@ -1,5 +1,5 @@
-from flask import Flask, render_template
-app = Flask(__name__)
+from flask import Flask, render_template, jsonify, send_from_directory
+app = Flask(__name__, static_folder='static')
 
 @app.route('/')
 def index():
@@ -27,4 +27,4 @@ def farmerCurrent():
 
 @app.route('/data')
 def data():
-    return jsonify('data.json')
+    return send_from_directory(app.static_folder, 'strains.json')
