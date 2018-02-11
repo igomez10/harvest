@@ -25,6 +25,10 @@ def search():
 def farmerCurrent():
     return render_template('farmerCurrent.html')
 
+@app.route('/farmerCurent')
+def farmerCurent():
+    return render_template('farmerCurrent.html')
+
 @app.route('/data')
 def data():
     return send_from_directory(app.static_folder, 'strains.json')
