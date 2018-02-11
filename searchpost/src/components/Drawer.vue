@@ -20,7 +20,7 @@
       :effects='post.effects'
       ></Post>
     </div>
-</div>
+  </div>
 </template>
 
 <script>
@@ -55,6 +55,7 @@ export default {
 <style scoped>
 .drawer::-webkit-scrollbar {
   display: none;
+}
 .drawer {
   overflow-x: scroll;
   -webkit-overflow-scrolling: touch;
