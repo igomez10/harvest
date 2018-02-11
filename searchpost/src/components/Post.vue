@@ -1,7 +1,7 @@
 <template>
   <transition name="fade">
   <div class="post" style='margin:0.75rem' v-if="validatePost()">
-    <div class="card" style='min-width:20rem'>
+    <div class="card" style='min-width:20rem; max-width:800px'>
       <div class="card-image waves-effect waves-block waves-light">
         <img class="activator" :src="image">
       </div>
@@ -12,11 +12,10 @@
       <div class="card-reveal">
         <span class="card-title grey-text text-darken-4">{{name}}<i class="material-icons right" style='font-weight:800'>close</i> </span>
         <ul class="collection">
-          <li class="collection-item" style='font-weight:800'>{{farmer.name}} {{farmer.rating}}</li>
+          <li class="collection-item" style='font-weight:800'><a href='farmerCurent'>{{farmer.name}} {{farmer.rating}}</a></li>
           <li class="collection-item">type: {{type}}</li>
           <li class="collection-item">THC: {{measurements.thc}}</li>
           <li class="collection-item">stage: {{stage}}</li>
-          <li class="collection-item">Alvin</li>
    </ul>
       </div>
     </div>
@@ -26,6 +25,9 @@
 </template>
 
 <script>
+$(document).ready(function () {
+  $('select').material_select()
+})
 export default {
   name: 'Post',
   data () {
